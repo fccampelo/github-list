@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Libs
+
+1 - [Axios](https://github.com/axios/axios)<br>
+2 - [Rematch](https://github.com/rematch/rematch)<br>
+3 - [Date-fns](https://github.com/you-dont-need/You-Dont-Need-Momentjs)<br>
+4 - [Emotion](https://emotion.sh)<br>
+5 - [Seamless-immutable](https://github.com/rtfeldman/seamless-immutable)<br>
+6 - [Rematch-logic](https://www.npmjs.com/package/rematch-logic)<br>
+7 - [Redux-Loginc](https://github.com/jeffbski/redux-logic)<br>
+8 - [React-spinners](https://www.npmjs.com/package/react-spinners)<br>
+9 - [React-Redux](https://github.com/reduxjs/react-redux)<br>
+
 ## Available Scripts
 
 In the project directory, you can run:

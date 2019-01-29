@@ -1,26 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component, Fragment } from "react";
+
+// Routes
+import Routes from "./Routes/";
+
+// Components
+import { Footer, Wrapper, Header } from "./Components/";
 
 class App extends Component {
+  componentDidMount() {
+    window.scrollTo(0, window);
+  }
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Fragment>
+        <Header />
+        <Wrapper>
+          <Routes />
+        </Wrapper>
+        <Footer />
+      </Fragment>
     );
   }
 }
